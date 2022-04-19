@@ -6,4 +6,4 @@ export class ExternalObject<T> {
     [K: symbol]: T
   }
 }
-export function plus100(input: number): number
+export function escapeHtml(str: string): string

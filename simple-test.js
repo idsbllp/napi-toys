@@ -1,5 +1,5 @@
-const { plus100 } = require('./index')
+const { escapeHtml } = require('./index')
 
-console.assert(plus100(0) === 100, 'Simple test failed')
+console.info(escapeHtml('&aa<bb>cc'))
 
 console.info('Simple test passed')

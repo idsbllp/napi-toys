@@ -192,6 +192,6 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { plus100 } = nativeBinding
+const { escapeHtml } = nativeBinding
 
-module.exports.plus100 = plus100
+module.exports.escapeHtml = escapeHtml
